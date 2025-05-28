@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(236, 5, 144);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2rem 1rem;
+}
+
+.ponydex-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* espaço entre o título e a logo */
+  margin-bottom: 2rem;
+}
+
+.ponydex-header h1 {
+  font-size: 3em;
+  font-weight: 900;
+  background: linear-gradient(to right, #390662, #8f1f90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+
+.ponydex-logo {
+  height: 80px;
+  width: auto;
+}
+
+.content {
+    padding: 1rem;
+    background-color: #ffffff;
+    min-height: 100vh;
+    max-width: 768px;
+    margin: 0 auto;
+    border-radius: 1rem;
+     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width: 992px) {
+    .content {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+}

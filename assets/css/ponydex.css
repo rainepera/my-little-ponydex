@@ -1,0 +1,147 @@
+/* Cores de fundo para os cards My Little Pony, por categoria */
+
+/* Seis Pôneis Principais */
+.pony.main-six-background {
+    background: linear-gradient(to right,  #ff6699, #893c98);
+}
+
+/* Princesas */
+.pony.princess-background {
+    background: linear-gradient(to right,  #ff6699, #F1C40F);
+}
+
+/* Aliados Principais / Protagonistas Secundários */
+.pony.ally-background {
+    background: linear-gradient(to right, #ff6699, #00b3cd);
+}
+
+/* Família Apple */
+.pony.apple-family-background {
+    background: linear-gradient(to right, #ff6699, #E67E22);
+}
+
+/* Vilões / Antagonistas */
+.pony.villain-background {
+    background: linear-gradient(to right, #ff6699, #3c0600);
+}
+
+
+.pony.reformed-background {
+    background: linear-gradient(to right, #ff6699, #ffe1fb);
+}
+
+/* Cutie Mark Crusaders */
+.pony.cmc-background {
+    background: linear-gradient(to right, #ff6699, #8f1f90);
+}
+
+.pony.coadjuvante-background {
+    background: linear-gradient(to right, #ff6699, #655e67);
+}
+
+.pony.default-background {
+    background: linear-gradient(to right, #ff6699, #535c68);
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    background-color: rgb(53, 24, 88);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.ponies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pony .number {
+    color: rgb(178, 148, 213);
+    text-align: right;
+    font-size: 0.650rem;
+    font-weight: bold;
+}
+
+.pony .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pony {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    /*background-color: rgb(53, 24, 88);*/
+}
+
+.pony .name {
+    color: white;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.pony .detail img {
+    max-width: 100%;
+    height: 75px;
+    order: 1;
+}
+
+.pony .detail .types {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.pony .detail .types li {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: .25rem .5rem;
+    border-radius: .5rem;
+    font-size: .8rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+    .ponies {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+  .ponies {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ponies {
+    grid-template-columns: 1fr;
+  }
+}
