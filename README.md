@@ -30,7 +30,7 @@ Ao invés de seguir a proposta original de uma Pokédex, resolvi adaptar o proje
 
 ## 🖼️ Visual do Projeto
 
-![Ponydex Preview](./assets/images/preview.png)  
+![Ponydex Preview](https://github.com/rainepera/my-little-ponydex/blob/main/assets/images/ponydex-exemplo.png)  
 *Exemplo de como os cards de pôneis são exibidos.*
 
 ---
